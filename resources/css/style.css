@@ -15,7 +15,7 @@ body {
   color: white;
 }
 
-/* Header Section */
+/* Main Banner Section */
 
 .main {
   background-image: url("../images/moto.jpg");
@@ -29,8 +29,8 @@ body {
   display: flex;
   align-items: center;
   font-size: 1rem;
-  padding-right: 60px;
-  padding-left: 60px;
+  padding-right: 3.33rem;
+  padding-left: 3.33rem;
 }
 
 .logo img {
@@ -44,33 +44,23 @@ body {
   margin-bottom: 0.66rem;
 }
 
-/*.header {
+.new_arrival {
   background-color: black;
   color: white;
-  width: 100%;
+  width: 20rem;
+  padding: 2rem 3rem;
+  position: relative;
+  top: 9rem;
+  margin-left: 3.33rem;
 }
 
-.logo {
-  position: fixed;
-  display: flex;
-  align-items: center;
-  width: 960px;
-  background-color: black;
-  color: white;
+.new_arrival h4 {
   font-size: 1rem;
-  margin: 0 auto;
-  padding-left: 10px;
+  font-weight: bold;
 }
 
-/* Main Banner Section */
-
-/*.main_banner {
-  background-image: url("../images/moto.jpg");
-  background-repeat: no-repeat;
-  height: 25rem;
-  padding-top:*/
-}
-
-h1 {
-  color: blue;
+.new_arrival h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2em;
 }
