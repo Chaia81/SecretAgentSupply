@@ -125,7 +125,7 @@ nav ul {
   flex-direction: column;
   width: 9rem;
   height: auto;
-  /*margin: 0 auto;*/
+
 }
 
 .product_text {
@@ -134,6 +134,34 @@ nav ul {
   display: block;
   text-align: center;
   padding: 0.5rem 0;
+}
+
+/* Information Section */
+
+.info_container {
+  width: 100%;
+  margin:  0 auto;
+}
+
+.information {
+  width: 960px;
+  padding-right: 3.33rem;
+  padding-left: 3.33rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 0 0;
+}
+
+.info {
+  width: 35%;
+  margin: 0 0 4rem 0;
+  }
+
+.info .title {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
 }
 
 /* Footer */
@@ -149,8 +177,5 @@ footer {
 }
 
 footer span {
-  /*width: 960px;*/
   text-align: left;
-  padding-right: 3.33rem;
-  padding-left: 3.33rem;
 }
